@@ -138,11 +138,16 @@ header {
 	margin: 10px auto;
 }
 
+#films {
+	padding: 10px;
+}
+
 .film {
 	background-color: rgb(217, 217, 217);
 	margin-bottom: 10px;
 	padding: 10px;
 	border-bottom: 1px solid gray;
+	border-radius: 3px;
 }
 
 .film_donnees {
@@ -160,7 +165,6 @@ header {
 
 .container_film_image {
 	width: 150px;
-	background-color: blue;
 	margin-right: 10px;
 	position: relative;
 }
@@ -208,4 +212,32 @@ header {
 	padding: 5px;
 	border-radius: 2px;
 	color: white;
+}
+
+@media screen and (max-width: 480px) {
+	.film_donnees {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.film_titre_icone {
+		margin-top: 10px;
+		justify-content: center;
+	}
+
+	.film_titre {
+		font-size: 20px;
+	}
+
+	.film_synopsis {
+		text-align: center;
+		width: 80%;
+		margin: 10px 0;
+	}
+
+	.container_image_infos {
+		flex-direction: column;
+		align-items: center;
+	}
 }
