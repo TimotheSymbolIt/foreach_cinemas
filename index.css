@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	all: unset;
+	cursor: pointer;
+}
+
+/* Header */
+
+header {
+	background-color: #186cb0;
+	color: white;
+}
+
+#container_header {
+	max-width: 1400px;
+	margin: auto;
+	padding: 10px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+}
+
+nav a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 10px;
+}
+
+/*  */
