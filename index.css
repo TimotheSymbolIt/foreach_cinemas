@@ -15,6 +15,10 @@ a {
 	cursor: pointer;
 }
 
+h2 {
+	color: #186cb0;
+}
+
 /* Header */
 
 header {
@@ -86,4 +90,37 @@ header {
 
 .lien_navigation:first-child {
 	margin-right: 10px;
+}
+
+/*  */
+/* Tarifs */
+
+#section_tarifs {
+	max-width: 1400px;
+	margin: auto;
+}
+
+#tarifs {
+	padding: 10px;
+}
+
+.tarif {
+	background-color: rgb(217, 217, 217);
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 3px;
+	border-bottom: 1px solid gray;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.tarif_description {
+	display: flex;
+	flex-direction: column;
+}
+
+.tarif_titre,
+.tarif_prix {
+	font-weight: bold;
 }
