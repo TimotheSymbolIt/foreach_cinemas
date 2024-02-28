@@ -31,18 +31,18 @@ header {
 	align-items: center;
 }
 
-nav {
+#header_nav {
 	display: flex;
 }
 
-nav a {
+#header_nav a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-left: 10px;
 }
 
-nav a:hover {
+#header_nav a:hover {
 	font-weight: bold;
 }
 
