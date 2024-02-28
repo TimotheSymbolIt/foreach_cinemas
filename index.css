@@ -288,3 +288,22 @@ header {
 .seance_salle .salle_complet {
 	color: black;
 }
+
+@media screen and (max-width: 480px) {
+	.seances {
+		flex-direction: column;
+	}
+
+	.seance {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 1020px) {
+	.seance {
+		width: 33%;
+	}
+}
+
+/*  */
