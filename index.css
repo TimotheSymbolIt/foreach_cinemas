@@ -35,19 +35,19 @@ header {
 	display: flex;
 }
 
-#header_nav a {
+#header_nav .header_lien {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-left: 10px;
 }
 
-#header_nav a:hover {
+#header_nav .header_lien:hover {
 	font-weight: bold;
 }
 
 @media screen and (max-width: 480px) {
-	#espace_pro {
+	#header_nav .header_lien:nth-child(2) {
 		display: none;
 	}
 
