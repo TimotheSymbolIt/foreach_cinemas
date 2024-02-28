@@ -215,8 +215,22 @@ header {
 	text-align: end;
 }
 
-.genre {
+.comedie_genre {
 	background-color: green;
+	padding: 5px;
+	border-radius: 2px;
+	color: white;
+}
+
+.sf_genre {
+	background-color: rgb(173, 35, 154);
+	padding: 5px;
+	border-radius: 2px;
+	color: white;
+}
+
+.action_genre {
+	background-color: rgb(178, 104, 54);
 	padding: 5px;
 	border-radius: 2px;
 	color: white;
@@ -307,3 +321,5 @@ header {
 }
 
 /*  */
+
+/* Ad */
