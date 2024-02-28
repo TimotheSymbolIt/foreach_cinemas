@@ -61,3 +61,29 @@ header {
 }
 
 /*  */
+
+/* Main */
+
+/* Navigation */
+
+#main_navigation {
+	max-width: 1400px;
+	margin: 10px auto;
+}
+
+#liste_navigation {
+	display: flex;
+	list-style: none;
+}
+
+.lien_navigation {
+	background-color: #186cb0;
+	color: white;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+}
+
+.lien_navigation:first-child {
+	margin-right: 10px;
+}
