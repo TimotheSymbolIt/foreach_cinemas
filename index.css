@@ -189,6 +189,11 @@ header {
 	margin-bottom: 5px;
 }
 
+.film_titre {
+	font-size: 20px;
+	font-weight: bold;
+}
+
 .sortie_film {
 	margin-bottom: 5px;
 }
